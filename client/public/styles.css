@@ -1,0 +1,71 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body{
+    background-color: #121214;
+    color: white;
+    text-align: center; 
+}
+.tweetImage{
+    width: 300px;
+}
+.tweetText{
+    height: 50px;
+    width: 40%;
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: #121214;
+    border-bottom:2px solid skyblue;
+    color: white;
+}
+.tweetArea{
+    border: 0.1px solid gray;
+    text-align: left;
+    padding: 0%;
+    border-bottom: none;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.userIcon{
+    width: 48px;
+    height: 48px;
+    /* margin: 2%; */
+    display: inline-block;
+}
+.tweetContent{
+    display: inline-block;
+    width: 80%;
+    margin-top: 2%;
+    padding-left: 4%;
+}
+.userNameTag{
+    color: gray;
+    font-weight: 100;
+}
+.userNameTag:hover{
+    color: gray;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.pfpArea{
+    display: inline-block;
+    margin-top: 2%;
+    padding-left: 5%;
+}
+/* .tweetProfile{
+    display: inline-block;
+    width: 100%;
+} */
